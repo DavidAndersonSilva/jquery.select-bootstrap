@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<title>Select with Boostrap</title>
+	<link rel="stylesheet" type="text/css" href="css/jquery.select-bootstrap.min.css" />
+</head>
+<body>
+	<select id="slcEstados">
+		<option>AC</option>
+		<option>SP</option>
+		<option>RJ</option>
+	</select>
+<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="js/jquery.select-bootstrap.min.js"></script>
+<script type="text/javascript">
+$(function() {
+	$('#slcEstados').selectBootstrap({ label: 'Estados' });
+});
+</script>
+</body>
+</html>
